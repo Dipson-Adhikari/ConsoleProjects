@@ -1,5 +1,6 @@
 #include <iostream>
 #include <windows.h>
+#include<string>
 using namespace std;
 void view_list(string list[], int count)
 {
@@ -77,6 +78,7 @@ int main()
         case 0:
         {
             cout << "Exiting the program." << endl;
+            system("cls");
             break;
         }
         default:
